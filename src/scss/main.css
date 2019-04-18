@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: tomato;
+  height: 4rem;
+  padding: 0 10%;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75vh;
+}
+
+.active {
+  color: white;
+}
+
+.page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+/** Page Transition Animation **/
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s linear 0.15s;
+  transition: opacity 0.2s linear 0.15s;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+/*# sourceMappingURL=main.css.map */
