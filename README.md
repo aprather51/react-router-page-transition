@@ -1,6 +1,11 @@
-# react-router-page-transition
-Personal and Experimental on react-transition-group extension to get page transition out of react-router.
+# React-Router & page transition
 
-Fullpage &rarr; https://4z90x4xzl4.codesandbox.io/
+![example](assets/example.gif)
 
-Preview Coding &rarr; https://codesandbox.io/s/4z90x4xzl4
+This is my Personal and Experiment on `react-transition-group` and `react-router-dom` to get page transition effect. 
+
+## Feature
+- react
+- react-transition-group [@react-transition-group](https://github.com/reactjs/react-transition-group)
+- react-router-dom
+
