@@ -12,7 +12,7 @@ import Page404 from "./Page404";
 import "../scss/main.scss";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <>
       <nav>
         <NavLink exact to="/" activeClassName="active">
