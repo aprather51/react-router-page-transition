@@ -2,7 +2,7 @@
 
 ![example](assets/example.gif)
 
-### [DEMO](https://aprather.github.io/react-router-page-transition)
+### [DEMO](https://aprather51.github.io/react-router-page-transition/)
 
 This is my Personal and Experiment project on `react-transition-group` and `react-router-dom` to get page transition effect. 
 
